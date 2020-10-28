@@ -1,0 +1,115 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "f96937b0-cf6c-4537-9b00-85dadd92eeba": {
+        "id": "f96937b0-cf6c-4537-9b00-85dadd92eeba",
+        "parent": null,
+        "name": "d.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "d.js",
+        "cursor": {
+          "lineNumber": 2,
+          "column": 5
+        },
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": [],
+          "name": "d"
+        },
+        "triggers": [
+          {
+            "resourceName": "apighiruawsacctesttestpathany",
+            "config": {}
+          }
+        ],
+        "lastUpdated": 1603857389279,
+        "testCases": {
+          "eb412d78-0482-4181-a0ff-8dc6eb5bb398": {
+            "id": "eb412d78-0482-4181-a0ff-8dc6eb5bb398",
+            "name": "Test event",
+            "functionId": "f96937b0-cf6c-4537-9b00-85dadd92eeba",
+            "event": "{\"key1\": \"value1\", \"key2\": \"value2\", \"key3\": \"value3\"}",
+            "eventTemplate": "hello-world"
+          }
+        }
+      }
+    },
+    "openFiles": [
+      "f96937b0-cf6c-4537-9b00-85dadd92eeba"
+    ],
+    "currentFileId": "f96937b0-cf6c-4537-9b00-85dadd92eeba",
+    "resources": {
+      "apighiruawsacctesttestpathany": {
+        "name": "apighiruawsacctesttestpathany",
+        "type": "API_GATEWAY",
+        "config": {
+          "apiType": 1,
+          "apiMode": 1,
+          "apiName": "hiruawsacctest",
+          "apiId": "vb81s9rqe0",
+          "endpointType": "EDGE",
+          "rootResourceId": "reyhdfbkt6",
+          "existingResources": {
+            "/test/path": "jfhchi",
+            "/": "reyhdfbkt6",
+            "/test": "th6ano"
+          },
+          "resourceMode": 1,
+          "resourcePath": "/test/path",
+          "resourceName": "test/path",
+          "resourceId": "jfhchi",
+          "restMethod": "ANY",
+          "proxyIntegration": false,
+          "enableCORS": false,
+          "stageMode": 1,
+          "stageName": "Test",
+          "stageDeploymentId": "4tkt6h",
+          "mode": 1
+        }
+      }
+    },
+    "customTemplate": {
+      "syntax": "JSON",
+      "overrideDefault": false,
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "sigmaVersion": "1.4.5",
+    "projectName": "d",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "language": "nodejs",
+    "platformRegions": {},
+    "lastSave": 1603858265388
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "d",
+      "url": "https://github.com/Kumudikatest/d"
+    }
+  }
+}
